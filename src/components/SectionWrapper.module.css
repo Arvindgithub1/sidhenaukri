@@ -1,0 +1,33 @@
+/* SectionWrapper.module.css */
+.section { margin-bottom: 32px; }
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #1a3fa3;
+  margin: 0;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+.viewAll {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1a3fa3;
+  text-decoration: none;
+}
+.viewAll:hover { text-decoration: underline; }
+
+.divider {
+  border: none;
+  border-top: 2px solid #1a3fa3;
+  margin: 0 0 14px;
+}
+
+.body {}

@@ -1,0 +1,46 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-poppins), sans-serif;
+  font-size: 0.87rem;
+}
+
+.table tr {
+  border-bottom: 1px solid #eef0f6;
+}
+.table tr:last-child {
+  border-bottom: none;
+}
+.table tr:nth-child(even) {
+  background: #f8f9fd;
+}
+
+.labelCell {
+  padding: 10px 14px;
+  color: #444;
+  font-weight: 600;
+  width: 50%;
+  min-width: 160px;
+  vertical-align: top;
+}
+
+.valueCell {
+  padding: 10px 14px;
+  color: #222;
+  font-weight: 500;
+  text-align: right;
+}
+
+.link {
+  color: #1a3fa3;
+  font-weight: 700;
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+.free {
+  color: #2e7d32;
+  font-weight: 700;
+}

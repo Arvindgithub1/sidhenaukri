@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 0 8px;
+  font-size: 0.76rem;
+  font-family: var(--font-poppins), sans-serif;
+}
+.item { display: flex; align-items: center; gap: 4px; }
+.link { color: #1a3fa3; text-decoration: none; font-weight: 500; }
+.link:hover { text-decoration: underline; }
+.sep { color: #bbb; }
+.current { color: #666; }

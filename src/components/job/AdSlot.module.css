@@ -1,0 +1,32 @@
+.wrap {
+  position: relative;
+  margin-bottom: 12px;
+}
+.adLabel {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background: #e67e22;
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-family: var(--font-poppins), sans-serif;
+  z-index: 1;
+}
+.box {
+  background: #e8eaed;
+  border: 1px solid #d0d3d8;
+  border-radius: 8px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  font-size: 0.85rem;
+  color: #9aa0a6;
+  font-weight: 500;
+  font-family: var(--font-poppins), sans-serif;
+}

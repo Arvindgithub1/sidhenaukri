@@ -1,0 +1,26 @@
+.block {
+  margin-bottom: 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #e0e4ee;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.header {
+  background: #1a3fa3;
+  padding: 10px 16px;
+}
+
+.title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* Sab sections ka body padding same — vertical line effect */
+.body {
+  background: #fff;
+  padding: 0;
+}

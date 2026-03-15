@@ -1,0 +1,35 @@
+/* page.module.css */
+.page {
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: var(--font-poppins), 'Segoe UI', sans-serif;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 28px 20px 0;
+}
+
+/* ── Consistent card grid for ALL sections ── */
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .cardGrid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .main { padding: 16px 12px 0; }
+  .cardGrid { grid-template-columns: 1fr; }
+}
+
+/* Section scroll offset — prevents sticky bars from covering content */
+:global([id^="section-"]) {
+  scroll-margin-top: 120px;
+}

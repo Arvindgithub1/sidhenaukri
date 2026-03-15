@@ -1,0 +1,17 @@
+/* page.module.css */
+.page {
+  min-height: 100vh;
+  background: #f4f6fb;
+  font-family: var(--font-poppins), sans-serif;
+}
+.main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 14px 48px;
+}
+.notFound {
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 1rem;
+  color: #888;
+}

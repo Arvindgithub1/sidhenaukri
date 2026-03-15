@@ -1,0 +1,42 @@
+/* ── Numbered List (SelectionProcess) ── */
+.numbered {
+  list-style: none;
+  padding: 12px 14px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.numberedItem {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 0.87rem;
+  color: #333;
+  font-family: var(--font-poppins), sans-serif;
+}
+.number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  background: #1a3fa3;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.7rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  font-family: var(--font-poppins), sans-serif;
+}
+
+/* ── Bullet List (ContentBlock, ImportantLinks) ── */
+.dot {
+  color: #1a3fa3;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  line-height: 1;
+  min-width: 16px;
+  text-align: center;
+}
