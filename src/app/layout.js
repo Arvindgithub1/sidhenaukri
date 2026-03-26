@@ -1,3 +1,5 @@
+
+
 // src/app/layout.js
 import { Poppins } from 'next/font/google';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -10,29 +12,28 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Sidhe Naukri: Latest Govt Jobs, Sarkari Result & Admit Card 2026',
-  description: 'Sidhe Naukri पर पाएं सभी Sarkari Result Latest Govt Jobs और Admit Cards की सबसे तेज़ अपडेट। 10th/12th pass सीधी भर्ती और सरकारी नौकरी की पक्की जानकारी यहाँ देखें।',
-  metadataBase: new URL('https://www.sidhenaukri.in'),
+  title: "Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs, Admit Card & Results",
+  description: "SidheNaukri.com पर पाएं सभी Sarkari Result, Latest Govt Jobs और Admit Card की सबसे तेज़ अपडेट। 10th, 12th और Graduate पास के लिए सीधी भर्ती (Direct Recruitment) की पक्की जानकारी यहाँ देखें।",
+  keywords: "Sarkari Result, Sidhe Naukri, Latest Govt Jobs, Admit Card 2026, Online Form, Sarkari Exam Result, SidheNaukri.in, SidheNaukri.com",
+  metadataBase: new URL('https://www.sidhenaukri.com'),
   openGraph: {
     title: 'Sidhe Naukri - Latest Govt Jobs 2026',
     description: 'Latest Government Jobs, Results, Admit Card aur Syllabus ki puri jankari.',
-    url: 'https://www.sidhenaukri.in',
+    url: 'https://www.sidhenaukri.com',
     siteName: 'Sidhe Naukri',
-    images: [
-      {
-        url: '/og-image.svg',
-        width: 1200,
-        height: 630,
-        alt: 'SidheNaukri - Latest Govt Jobs',
-      },
-    ],
+    images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: 'SidheNaukri - Latest Govt Jobs' }],
     locale: 'hi_IN',
     type: 'website',
+  },
+  icons: {
+    icon: '/og-image.svg',
+    shortcut: '/og-image.svg',
+    apple: '/og-image.svg',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sidhe Naukri - Latest Govt Jobs 2026',
-    description: 'Latest Government Jobs, Results, Admit Card aur Syllabus.',
+    description: 'Latest Government Jobs, Admit Card and Results updates in one click.',
     images: ['/og-image.svg'],
   },
 };

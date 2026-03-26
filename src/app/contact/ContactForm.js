@@ -72,7 +72,7 @@ export default function ContactForm() {
           </div>
 
           <div className={styles.formCard}>
-            <h2 className={styles.formTitle}>Message Bhejein</h2>
+            <h2 className={styles.formTitle}>Message</h2>
 
             {success ? (
               <div className={styles.successBox}>
@@ -88,7 +88,7 @@ export default function ContactForm() {
                 <div className={styles.row2}>
                   <div className={styles.field}>
                     <label>Naam *</label>
-                    <input name="name" value={form.name} onChange={handleChange} placeholder="Apna naam likhein" required />
+                    <input name="name" value={form.name} onChange={handleChange} placeholder="Name" required />
                   </div>
                   <div className={styles.field}>
                     <label>Email *</label>
@@ -105,7 +105,7 @@ export default function ContactForm() {
                 </div>
                 {error && <div className={styles.errorBox}>{error}</div>}
                 <button type="submit" className={styles.submitBtn} disabled={loading}>
-                  {loading ? 'Bhej rahe hain...' : 'Message Bhejein →'}
+                  {loading ? 'Sending....' : ' Send Message →'}
                 </button>
               </form>
             )}

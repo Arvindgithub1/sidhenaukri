@@ -32,7 +32,7 @@ export default async function Home() {
         <div id="section-jobs">
           <SectionWrapper title="Latest Job Openings" viewAllLink="/jobs">
             <div className={styles.cardGrid}>
-              {jobs.slice(0, 6).map((job) => (
+              {jobs.slice(0, 8).map((job) => (
                 <ApplyCard key={job.id} job={job} section="jobs" />
               ))}
             </div>
@@ -48,7 +48,7 @@ export default async function Home() {
         <div id="section-results">
           <SectionWrapper title="Latest Results" viewAllLink="/results">
             <div className={styles.cardGrid}>
-              {results.slice(0, 6).map((job) => (
+              {results.slice(0, 8).map((job) => (
                 <ApplyCard key={job.id} job={job} section="result" />
               ))}
             </div>
@@ -58,7 +58,7 @@ export default async function Home() {
         <div id="section-admitcard">
           <SectionWrapper title="Admit Cards" viewAllLink="/admit-card">
             <div className={styles.cardGrid}>
-              {admitCards.slice(0, 6).map((job) => (
+              {admitCards.slice(0, 8).map((job) => (
                 <ApplyCard key={job.id} job={job} section="admit-card" />
               ))}
             </div>
@@ -68,7 +68,7 @@ export default async function Home() {
         <div id="section-answerkey">
           <SectionWrapper title="Answer Key" viewAllLink="/answer-key">
             <div className={styles.cardGrid}>
-              {answerKeys.slice(0, 6).map((job) => (
+              {answerKeys.slice(0, 8).map((job) => (
                 <ApplyCard key={job.id} job={job} section="answer-key" />
               ))}
             </div>
@@ -78,7 +78,7 @@ export default async function Home() {
         <div id="section-syllabus">
           <SectionWrapper title="Syllabus" viewAllLink="/syllabus">
             <div className={styles.cardGrid}>
-              {allJobs.filter(j => j.category?.toLowerCase() === 'syllabus').slice(0, 6).map((job) => (
+              {allJobs.filter(j => j.category?.toLowerCase() === 'syllabus').slice(0, 8).map((job) => (
                 <ApplyCard key={job.id} job={job} section="syllabus" />
               ))}
             </div>
