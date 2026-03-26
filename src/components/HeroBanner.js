@@ -12,13 +12,13 @@ const GRADIENTS = [
   'linear-gradient(135deg, #c62828, #ef5350)',
   'linear-gradient(135deg, #00695c, #26a69a)',
 ];
-
+// Latest Government Jobs
 export default function HeroBanner() {
   return (
     <section className={styles.hero}>
       <div className={styles.content}>
         <h1 className={styles.heading}>
-          Latest Government Jobs <span className={styles.highlight}>in India 2026</span>
+          Land Lele mera.. bsdk <span className={styles.highlight}>in India 2026</span>
         </h1>
         <div className={styles.tags}>
           {quickTags.map((tag, i) => (
