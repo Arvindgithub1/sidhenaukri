@@ -14,7 +14,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: "Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs, Admit Card, Results, SSC, Railway, & All Govt Jobs Updates",
-  description: "SidheNaukri.com पर पाएं सभी Sarkari Result, Latest Govt Jobs और Admit Card की सबसे तेज़ अपडेट। SSC, Railway, Bank, UPSC, और Defense भर्ती के ऑनलाइन फॉर्म (Direct Recruitment) की पक्की जानकारी यहाँ देखें।",
+  description: "SidheNaukri.in पर पाएं सभी Sarkari Result, Latest Govt Jobs और Admit Card की सबसे तेज़ अपडेट। SSC, Railway, Bank, UPSC, और Defense भर्ती के ऑनलाइन फॉर्म (Direct Recruitment) की पक्की जानकारी यहाँ देखें।",
   keywords: "Sarkari Result, Sidhe Naukri, SSC GD 2026, Railway Recruitment, Bank Jobs, UPSC Online Form, Admit Card 2026, Answer Key 2026, Govt Jobs for Graduates, SidheNaukri.in",
   metadataBase: new URL('https://www.sidhenaukri.in'),
   openGraph: {

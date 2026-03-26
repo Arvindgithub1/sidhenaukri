@@ -16,15 +16,15 @@ const SEO_TITLES = {
 
 const SEO_DESCRIPTIONS = {
   Jobs: (title, year) =>
-    `${title} भर्ती ${year} का Notification जारी। Qualification, Age Limit और Online Apply करने की पूरी जानकारी यहाँ देखें। सीधी भर्ती की पक्की सूचना - SidheNaukri.com`,
+    `${title} भर्ती ${year} का Notification जारी। Qualification, Age Limit और Online Apply करने की पूरी जानकारी यहाँ देखें। सीधी भर्ती की पक्की सूचना - SidheNaukri.in`,
   result: (title, year) =>
-    `${title} का Result और Merit List घोषित कर दी गई है। अपना Scorecard और Cut-off marks चेक करने के लिए Direct Link यहाँ देखें। सबसे तेज़ अपडेट - SidheNaukri.com`,
+    `${title} का Result और Merit List घोषित कर दी गई है। अपना Scorecard और Cut-off marks चेक करने के लिए Direct Link यहाँ देखें। सबसे तेज़ अपडेट - SidheNaukri.in`,
   'admit-card': (title, year) =>
-    `${title} परीक्षा के Admit Card और Exam City details जारी। अपना हॉल टिकट डाउनलोड करने और Exam Date चेक करने के लिए यहाँ क्लिक करें - SidheNaukri.com`,
+    `${title} परीक्षा के Admit Card और Exam City details जारी। अपना हॉल टिकट डाउनलोड करने और Exam Date चेक करने के लिए यहाँ क्लिक करें - SidheNaukri.in`,
   'answer-key': (title, year) =>
-    `${title} की Official Answer Key जारी। अपने उत्तरों का मिलान करें और PDF डाउनलोड करें। Objection दर्ज करने का Direct Link यहाँ है - SidheNaukri.com`,
+    `${title} की Official Answer Key जारी। अपने उत्तरों का मिलान करें और PDF डाउनलोड करें। Objection दर्ज करने का Direct Link यहाँ है - SidheNaukri.in`,
   syllabus: (title, year) =>
-    `${title} का नया Syllabus और Exam Pattern हिंदी में PDF डाउनलोड करें। जानें कौन-से विषय से कितने सवाल आएंगे और तैयारी कैसे करें - SidheNaukri.com`,
+    `${title} का नया Syllabus और Exam Pattern हिंदी में PDF डाउनलोड करें। जानें कौन-से विषय से कितने सवाल आएंगे और तैयारी कैसे करें - SidheNaukri.in`,
 };
 
 export function generatePostMetadata(post) {
