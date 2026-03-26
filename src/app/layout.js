@@ -10,16 +10,23 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: 'Sidhe Naukri - बिना परीक्षा सीधी भर्ती और Latest Govt Jobs 2026',
-  description: 'Sidhe Naukri पर पाएं 10वीं/12वीं पास के लिए बिना परीक्षा सीधी भर्ती, मेरिट आधारित सरकारी नौकरियां और ताज़ा भर्ती अपडेट्स सबसे पहले।',
-  metadataBase: new URL('https://www.sidhenaukri.com'),
+  title: 'Sidhe Naukri: Latest Govt Jobs, Sarkari Result & Admit Card 2026',
+  description: 'Sidhe Naukri पर पाएं सभी Sarkari Result Latest Govt Jobs और Admit Cards की सबसे तेज़ अपडेट। 10th/12th pass सीधी भर्ती और सरकारी नौकरी की पक्की जानकारी यहाँ देखें।',
+  metadataBase: new URL('https://www.sidhenaukri.in'),
   openGraph: {
     title: 'Sidhe Naukri - Latest Govt Jobs 2026',
     description: 'Latest Government Jobs, Results, Admit Card aur Syllabus ki puri jankari.',
-    url: 'https://www.sidhenaukri.com',
+    url: 'https://www.sidhenaukri.in',
     siteName: 'Sidhe Naukri',
-    images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: 'SidheNaukri - Latest Govt Jobs' }],
-    locale: 'hi_IN', 
+    images: [
+      {
+        url: '/og-image.svg',
+        width: 1200,
+        height: 630,
+        alt: 'SidheNaukri - Latest Govt Jobs',
+      },
+    ],
+    locale: 'hi_IN',
     type: 'website',
   },
   twitter: {

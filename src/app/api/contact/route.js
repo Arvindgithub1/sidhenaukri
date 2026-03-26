@@ -16,15 +16,15 @@ export async function POST(request) {
         'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
       },
       body: JSON.stringify({
-        from: 'SidheNaukri Contact <contact@sidhenaukri.com>',
+        from: 'SidheNaukri Contact <contact@sidhenaukri.in>',
         to: ['sidhenaukri@gmail.com'],
         reply_to: email,
-        subject: `New Contact Form: ${name} — SidheNaukri.com`,
+        subject: `New Contact Form: ${name} — SidheNaukri.in`,
         html: `
           <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
             <div style="background: #1a3fa3; padding: 20px; border-radius: 8px 8px 0 0;">
               <h2 style="color: #fff; margin: 0;">New Contact Form Submission</h2>
-              <p style="color: rgba(255,255,255,0.7); margin: 4px 0 0; font-size: 14px;">SidheNaukri.com</p>
+              <p style="color: rgba(255,255,255,0.7); margin: 4px 0 0; font-size: 14px;">SidheNaukri.in</p>
             </div>
             <div style="background: #f8f9fd; padding: 24px; border: 1px solid #e0e4ee; border-top: none; border-radius: 0 0 8px 8px;">
               <table style="width: 100%; border-collapse: collapse;">
@@ -47,7 +47,7 @@ export async function POST(request) {
                 </tr>
               </table>
               <div style="margin-top: 20px; padding: 12px; background: #eef1fb; border-radius: 6px; font-size: 12px; color: #666;">
-                Sent from SidheNaukri.com Contact Form
+                Sent from SidheNaukri.in Contact Form
               </div>
             </div>
           </div>

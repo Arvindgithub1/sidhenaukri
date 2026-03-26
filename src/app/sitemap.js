@@ -1,6 +1,6 @@
 import { getJobs } from '@/lib/blogger';
 
-const BASE_URL = 'https://www.sidhenaukri.com';
+const BASE_URL = 'https://www.sidhenaukri.in';
 
 function getPrefix(category) {
   const cat = (category || '').toLowerCase();

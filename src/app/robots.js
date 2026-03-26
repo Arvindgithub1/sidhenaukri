@@ -1,4 +1,4 @@
-const BASE_URL = 'https://www.sidhenaukri.com';
+const BASE_URL = 'https://www.sidhenaukri.in';
 
 export default function robots() {
   return {

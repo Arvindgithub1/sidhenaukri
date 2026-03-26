@@ -11,7 +11,7 @@ function formatDateForSchema(dateStr) {
   } catch { return null; }
 }
 
-const BASE_URL = 'https://www.sidhenaukri.com';
+const BASE_URL = 'https://www.sidhenaukri.in';
 
 function getPrefix(cat) {
   const c = (cat || '').toLowerCase();
