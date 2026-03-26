@@ -11,15 +11,16 @@ const poppins = Poppins({
   variable: '--font-poppins',
 });
 
+
 export const metadata = {
-  title: "Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs, Admit Card & Results",
-  description: "SidheNaukri.com पर पाएं सभी Sarkari Result, Latest Govt Jobs और Admit Card की सबसे तेज़ अपडेट। 10th, 12th और Graduate पास के लिए सीधी भर्ती (Direct Recruitment) की पक्की जानकारी यहाँ देखें।",
-  keywords: "Sarkari Result, Sidhe Naukri, Latest Govt Jobs, Admit Card 2026, Online Form, Sarkari Exam Result, SidheNaukri.in, SidheNaukri.com",
-  metadataBase: new URL('https://www.sidhenaukri.com'),
+  title: "Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs, Admit Card, Results, SSC, Railway, & All Govt Jobs Updates",
+  description: "SidheNaukri.com पर पाएं सभी Sarkari Result, Latest Govt Jobs और Admit Card की सबसे तेज़ अपडेट। SSC, Railway, Bank, UPSC, और Defense भर्ती के ऑनलाइन फॉर्म (Direct Recruitment) की पक्की जानकारी यहाँ देखें।",
+  keywords: "Sarkari Result, Sidhe Naukri, SSC GD 2026, Railway Recruitment, Bank Jobs, UPSC Online Form, Admit Card 2026, Answer Key 2026, Govt Jobs for Graduates, SidheNaukri.in",
+  metadataBase: new URL('https://www.sidhenaukri.in'),
   openGraph: {
-    title: 'Sidhe Naukri - Latest Govt Jobs 2026',
+    title: 'Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs (SSC, Railway, Bank)',
     description: 'Latest Government Jobs, Results, Admit Card aur Syllabus ki puri jankari.',
-    url: 'https://www.sidhenaukri.com',
+    url: 'https://www.sidhenaukri.in',
     siteName: 'Sidhe Naukri',
     images: [{ url: '/og-image.svg', width: 1200, height: 630, alt: 'SidheNaukri - Latest Govt Jobs' }],
     locale: 'hi_IN',

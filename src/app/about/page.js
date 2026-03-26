@@ -3,8 +3,8 @@ import Footer from '@/components/Footer';
 import styles from './page.module.css';
 
 export const metadata = {
-  title: 'About Us | Sidhe Naukri के बारे में जानें',
-  description: 'Sidhe Naukri एक सरकारी नौकरी पोर्टल है जो 10वीं/12वीं पास उम्मीदवारों को सबसे पहले सरकारी भर्ती की जानकारी देता है।',
+  title: "About Us - Sidhe Naukri: India's Trusted Govt Jobs Portal",
+  description: "SidheNaukri.in के बारे में जानें। हम आपको SSC, Railway, Bank and All Government Jobs (Sarkari Result) की सबसे तेज़ और सटीक जानकारी प्रदान करते हैं।"
 };
 
 export default function AboutPage() {
