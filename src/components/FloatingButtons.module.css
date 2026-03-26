@@ -1,0 +1,81 @@
+.wrap {
+  position: fixed;
+  bottom: 80px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 999;
+}
+
+.waBtn, .tgBtn {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  overflow: hidden;
+  transition: width 0.3s ease, border-radius 0.3s ease, gap 0.3s ease;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.waBtn {
+  background: #25D366;
+  box-shadow: 0 4px 14px rgba(37,211,102,0.5);
+}
+
+.tgBtn {
+  background: #229ED9;
+  box-shadow: 0 4px 14px rgba(34,158,217,0.5);
+}
+
+.waBtn:hover, .tgBtn:hover {
+  width: 150px;
+  border-radius: 26px;
+  gap: 8px;
+  padding: 0 16px 0 12px;
+  justify-content: flex-start;
+}
+
+.label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  font-family: var(--font-poppins), sans-serif;
+  opacity: 0;
+  width: 0;
+  transition: opacity 0.2s ease 0.1s, width 0.3s ease;
+  overflow: hidden;
+}
+
+.waBtn:hover .label,
+.tgBtn:hover .label {
+  opacity: 1;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .wrap {
+    bottom: 70px;
+    right: 12px;
+  }
+  .waBtn, .tgBtn {
+    width: 46px;
+    height: 46px;
+  }
+  .waBtn:hover, .tgBtn:hover {
+    width: 46px;
+    border-radius: 50%;
+    gap: 0;
+    padding: 0;
+    justify-content: center;
+  }
+  .waBtn:hover .label,
+  .tgBtn:hover .label {
+    opacity: 0;
+    width: 0;
+  }
+}

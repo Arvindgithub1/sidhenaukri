@@ -1,4 +1,6 @@
+// src/app/jobs/[slug]/page.js
 import { getJobs, getJobById } from '@/lib/blogger';
+import { generatePostMetadata } from '@/lib/metadata';
 import DetailPageLayout from '@/components/job/DetailPageLayout';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
@@ -13,16 +15,12 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const item = await getJobById(slug);
   if (!item) return { title: 'Not Found | Sidhe Naukri' };
-  return {
-    title: `${item.title} | Sidhe Naukri`,
-    description: `${item.title} — details, dates aur download links yahan dekho.`,
-  };
+  return generatePostMetadata(item);
 }
 
 export default async function DetailPage({ params }) {
   const { slug } = await params;
   const item = await getJobById(slug);
-
   if (!item) {
     return (
       <div className={styles.page}>
@@ -32,6 +30,5 @@ export default async function DetailPage({ params }) {
       </div>
     );
   }
-
   return <DetailPageLayout item={item} section="jobs" />;
 }

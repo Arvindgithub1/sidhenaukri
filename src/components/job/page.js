@@ -14,10 +14,6 @@ import SelectionProcess from '@/components/job/SelectionProcess';
 import ImportantLinks   from '@/components/job/ImportantLinks';
 import AdSlot           from '@/components/job/AdSlot';
 
-export async function generateStaticParams() {
-  const jobs = await getJobs();
-  return jobs.map((job) => ({ id: String(job.id) }));
-}
 
 // Helper — check if object has at least one non-null value
 function hasData(obj) {

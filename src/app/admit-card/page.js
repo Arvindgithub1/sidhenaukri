@@ -7,9 +7,11 @@ import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Admit Card 2026 | परीक्षा प्रवेश पत्र डाउनलोड करें - Sidhe Naukri',
-  description: 'सभी प्रतियोगी परीक्षाओं के एडमिट कार्ड (Admit Cards) और हॉल टिकट डाउनलोड करने का सीधा लिंक। अपनी परीक्षा की तारीख और केंद्र यहाँ चेक करें।',
+  title: 'Admit Card 2026 - Download Hall Ticket & Exam Dates | Sidhe Naukri',
+  description: 'Latest Admit Card और Exam City की जानकारी सबसे पहले। SSC, Railway, Bank और Police Exam Admit Card डाउनलोड करें Sidhe Naukri से।',
 };
+
+
 
 export default async function AdmitCardPage() {
   const all = await getJobs();

@@ -1,18 +1,6 @@
 import Link from 'next/link';
+import { formatDate } from '@/lib/formatDate';
 import styles from './ApplyCard.module.css';
-
-function formatDate(dateStr) {
-  if (!dateStr) return null;
-  try {
-    // DD/MM/YYYY format handle karo
-    const parts = dateStr.split('/');
-    if (parts.length === 3) {
-      const d = new Date(`${parts[2]}-${parts[1].padStart(2,'0')}-${parts[0].padStart(2,'0')}`);
-      return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
-    }
-    return dateStr;
-  } catch { return dateStr; }
-}
 
 // section ke hisab se URL prefix
 function getPrefix(section) {

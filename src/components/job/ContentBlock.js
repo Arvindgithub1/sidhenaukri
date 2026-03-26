@@ -2,6 +2,7 @@ import styles from './ContentBlock.module.css';
 
 function SingleBlock({ data }) {
   if (!data?.title) return null;
+  const oneline = Array.isArray(data.oneline) ? data.oneline.filter(Boolean) : [];
   return (
     <div className={styles.wrap}>
       {Array.isArray(data.content) && data.content.length > 0 && (
@@ -13,6 +14,13 @@ function SingleBlock({ data }) {
             </li>
           ))}
         </ul>
+      )}
+      {oneline.length > 0 && (
+        <div className={styles.oneline}>
+          {oneline.map((item, i) => (
+            <span key={i} className={styles.onelineItem}>{item}</span>
+          ))}
+        </div>
       )}
     </div>
   );

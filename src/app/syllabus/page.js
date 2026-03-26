@@ -7,8 +7,8 @@ import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Exam Syllabus 2026 | सरकारी परीक्षा का नया सिलेबस और पैटर्न - Sidhe Naukri',
-  description: 'सभी सरकारी नौकरियों का लेटेस्ट सिलेबस (Syllabus) और एग्जाम पैटर्न PDF में डाउनलोड करें। अपनी तैयारी को सही दिशा देने के लिए पूरा टॉपिक-वाइज विवरण।',
+  title: 'Exam Syllabus 2026 - Latest Pattern & PDF Download | Sidhe Naukri',
+  description: 'New Govt Job Syllabus और Exam Pattern PDF में डाउनलोड करें। तैयारी के लिए Subject-wise Topics और Selection Process की पूरी जानकारी।',
 };
 
 export default async function SyllabusPage() {

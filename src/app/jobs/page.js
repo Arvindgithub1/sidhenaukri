@@ -7,8 +7,8 @@ import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Latest Govt Jobs 2026 | नई सरकारी भर्तियों की जानकारी - Sidhe Naukri',
-  description: 'भारत के सभी राज्यों और विभागों की नवीनतम सरकारी नौकरियों (Latest Vacancies) की जानकारी। 10th, 12th, Graduate और ITI पास के लिए रोज़ाना नई अपडेट्स।',
+  title: 'Latest Govt Jobs 2026 - नई सरकारी भर्तियां और Online Form | Sidhe Naukri',
+  description: 'सभी नवीनतम सरकारी नौकरियों (Latest Vacancies) की लिस्ट यहाँ देखें। SSC, Railway, Bank और State Govt जॉब्स के ऑनलाइन फॉर्म भरने की पूरी जानकारी और डायरेक्ट लिंक सबसे पहले पाएं।',
 };
 
 export default async function JobsPage() {

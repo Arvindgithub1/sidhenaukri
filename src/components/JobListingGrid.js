@@ -1,18 +1,6 @@
 import Link from 'next/link';
+import { formatDate } from '@/lib/formatDate';
 import styles from './JobListingGrid.module.css';
-
-function formatDate(dateStr) {
-  if (!dateStr) return null;
-  try {
-    const parts = String(dateStr).split('/');
-    if (parts.length === 3) {
-      const d = new Date(`${parts[2]}-${parts[1].padStart(2,'0')}-${parts[0].padStart(2,'0')}`);
-      if (isNaN(d)) return dateStr;
-      return d.toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' });
-    }
-    return dateStr;
-  } catch { return dateStr; }
-}
 
 function getPrefix(section) {
   if (section === 'result')     return '/result';
@@ -68,7 +56,7 @@ export default function JobListingGrid({ jobs, section }) {
   return (
     <div className={styles.grid}>
       {jobs.map((job) => (
-        <JobCard key={job.key} job={job} section={section} />
+        <JobCard key={job.id} job={job} section={section} />
       ))}
     </div>
   );

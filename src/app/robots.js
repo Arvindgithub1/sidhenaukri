@@ -1,4 +1,4 @@
-const BASE_URL = 'https://sidhenaukri.in'; // apna domain yahan rakho
+const BASE_URL = 'https://www.sidhenaukri.com';
 
 export default function robots() {
   return {

@@ -7,8 +7,8 @@ import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Answer Key 2026 | सरकारी परीक्षा की उत्तर कुंजी - Sidhe Naukri',
-  description: 'SSC, Bank, और Railway भर्ती परीक्षाओं की आधिकारिक Answer Key यहाँ डाउनलोड करें और अपने अंकों (Scores) का सही मिलान करें।',
+  title: 'Answer Key 2026 - Latest Govt Exam Answer Key & PDF | Sidhe Naukri',
+  description: 'सभी सरकारी परीक्षाओं की Official Answer Key यहाँ से डाउनलोड करें। Get latest updates on Exam Solutions, Question Papers and Objection Links on Sidhe Naukri.',
 };
 
 export default async function AnswerKeyPage() {

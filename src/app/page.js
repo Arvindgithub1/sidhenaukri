@@ -9,6 +9,7 @@ import { getJobs } from '@/lib/blogger';
 import styles from './page.module.css';
 
 // Case-insensitive category match
+
 const isCategory = (job, cat) =>
   job.category?.toLowerCase() === cat.toLowerCase();
 
@@ -32,7 +33,7 @@ export default async function Home() {
           <SectionWrapper title="Latest Job Openings" viewAllLink="/jobs">
             <div className={styles.cardGrid}>
               {jobs.slice(0, 6).map((job) => (
-                <ApplyCard key={job.key} job={job} section="jobs" />
+                <ApplyCard key={job.id} job={job} section="jobs" />
               ))}
             </div>
           </SectionWrapper>
@@ -48,7 +49,7 @@ export default async function Home() {
           <SectionWrapper title="Latest Results" viewAllLink="/results">
             <div className={styles.cardGrid}>
               {results.slice(0, 6).map((job) => (
-                <ApplyCard key={job.key} job={job} section="result" />
+                <ApplyCard key={job.id} job={job} section="result" />
               ))}
             </div>
           </SectionWrapper>
@@ -58,7 +59,7 @@ export default async function Home() {
           <SectionWrapper title="Admit Cards" viewAllLink="/admit-card">
             <div className={styles.cardGrid}>
               {admitCards.slice(0, 6).map((job) => (
-                <ApplyCard key={job.key} job={job} section="admit-card" />
+                <ApplyCard key={job.id} job={job} section="admit-card" />
               ))}
             </div>
           </SectionWrapper>
@@ -68,7 +69,7 @@ export default async function Home() {
           <SectionWrapper title="Answer Key" viewAllLink="/answer-key">
             <div className={styles.cardGrid}>
               {answerKeys.slice(0, 6).map((job) => (
-                <ApplyCard key={job.key} job={job} section="answer-key" />
+                <ApplyCard key={job.id} job={job} section="answer-key" />
               ))}
             </div>
           </SectionWrapper>

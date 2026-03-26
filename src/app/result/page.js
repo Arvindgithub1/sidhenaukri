@@ -7,8 +7,8 @@ import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Latest Exam Results 2026 | सभी सरकारी परीक्षाओं के परिणाम - Sidhe Naukri',
-  description: 'SSC, Railway, UPSC, और State Govt Exams के रिजल्ट और मेरिट लिस्ट (Merit List) यहाँ देखें। अपना रिजल्ट सबसे तेज़ और सीधे लिंक से डाउनलोड करें।',
+  title: 'Sarkari Result 2026 - Latest Exam Results & Merit List | Sidhe Naukri',
+  description: 'सभी सरकारी परीक्षाओं के Latest Results और Merit List यहाँ चेक करें। Get direct link for State & Central Govt Job Results on Sidhe Naukri.',
 };
 
 export default async function ResultPage() {

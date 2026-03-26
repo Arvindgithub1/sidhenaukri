@@ -11,6 +11,7 @@ export async function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }
 
+
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const cat = categories.find((c) => c.slug === slug);

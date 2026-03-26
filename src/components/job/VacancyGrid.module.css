@@ -46,3 +46,30 @@
   font-weight: 700;
   text-align: right;
 }
+
+/* Oneline — full width */
+.oneline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border-top: 1px solid #eef0f6;
+  padding: 10px 14px;
+  background: #f8f9fd;
+}
+
+.onelineItem {
+  flex: 1;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #444;
+  font-family: var(--font-poppins), sans-serif;
+  padding: 2px 8px 2px 0;
+  white-space: nowrap;
+  min-width: max-content;
+}
+
+.onelineItem:not(:last-child)::after {
+  content: '|';
+  margin-left: 8px;
+  color: #ccc;
+}

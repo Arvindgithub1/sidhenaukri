@@ -117,3 +117,37 @@
   .actions { flex-direction: column; }
   .btnOutline, .btnSolid, .btnDownload { justify-content: center; }
 }
+
+/* Tag Badges */
+.tagBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+  margin-bottom: 14px;
+}
+
+.tagBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  font-family: var(--font-poppins), sans-serif;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+}
+
+.tagBadge:hover {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.3);
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.tagIcon { font-size: 0.95rem; line-height: 1; }
+.tagLabel { font-size: 0.8rem; font-weight: 700; }
