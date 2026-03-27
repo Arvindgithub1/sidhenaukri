@@ -7,7 +7,7 @@ const API_KEY = process.env.BLOGGER_API_KEY;
 export async function getJobs() {
   const res = await fetch(
     `https://www.googleapis.com/blogger/v3/blogs/${BLOG_ID}/posts/${POST_ID}?key=${API_KEY}`,
-    { next: { revalidate: 3600 } }
+    { next: { revalidate: 86400  } }
   );
   if (!res.ok) return [];
   const data = await res.json();
