@@ -1,0 +1,1190 @@
+[ {
+        "id": "up-police-si-recruitment-2026",
+        "created_at": "6/3/2026",
+        "category": "syllabus",
+        "title": "UP Police SI Recruitment 2026",
+        "organization": "Uttar Pradesh Police",
+        "total_vacancy": 9534,
+        "job_location": "Uttar Pradesh",
+        "tags": [
+            "police",
+            "up"
+        ],
+        "important_dates": {
+            "exam_date": "10/7/2026",
+            "last_date": "30/3/2026",
+            "apply_start": "6/3/2026",
+            "result_date": "5/9/2026",
+            "admit_card_date": "1/7/2026",
+            "answer_key_date": "15/7/2026",
+            "notification_release": "1/3/2026"
+        },
+        "qualification1": [
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": "{\"download_syllabus\": \"https://uppbpb.gov.in/apply\"}",
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Written Exam",
+            "DV & PST",
+            "Medical Exam"
+        ],
+        "important_links": {
+            "official_website": "https://uppbpb.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Physical Standards",
+                "content": [
+                    "Male Height: 168 cm minimum",
+                    "Female Height: 152 cm minimum",
+                    "Chest (Male): 79-84 cm"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "SI Civil Police (Male)",
+                        6160
+                    ],
+                    [
+                        "SI Civil Police (Female)",
+                        2016
+                    ],
+                    [
+                        "SI Confidential",
+                        1358
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "SI Civil Police (Male)",
+                        6160
+                    ],
+                    [
+                        "SI Civil Police (Female)",
+                        2016
+                    ],
+                    [
+                        "SI Confidential",
+                        1358
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "railway-ntpc-result-2026",
+        "created_at": "4/3/2026",
+        "category": "result",
+        "title": "Railway NTPC CBT  Result 2026",
+        "organization": "Railway Recruitment Board",
+        "total_vacancy": 11558,
+        "job_location": "India",
+        "tags": [
+            "railway",
+            "ntpc"
+        ],
+        "important_dates": {
+            "exam_date": "10/12/2025",
+            "result_date": "4/3/2026",
+            "answer_key_date": "20/12/2025"
+        },
+        "qualification1": [
+            "12th pass",
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": "{\"download_result\": \"https://rrbresult.gov.in/ntpc-2026\"}",
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "CBT 1",
+            "CBT 2",
+            "Typing Test / CBAT",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://indianrailways.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Result Details",
+                "content": [
+                    "CBT 1 result declared for all zones",
+                    "Shortlisted candidates called for CBT 2",
+                    "Merit list based on normalized marks"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "up-police-result-2026",
+        "created_at": "3/3/2026",
+        "category": "result",
+        "title": "UPpppp Police Constable Result 2026",
+        "organization": "UP Police Recruitment Board",
+        "total_vacancy": 60244,
+        "job_location": "Uttar Pradesh",
+        "tags": [
+            "police",
+            "up"
+        ],
+        "important_dates": {
+            "exam_date": "18/2/2026",
+            "result_date": "3/3/2026",
+            "answer_key_date": "22/2/2026"
+        },
+        "qualification1": [
+            "12th pass"
+        ],
+        "jobs": null,
+        "result": "{\"download_result\": \"https://uppbpb.gov.in/result-2026\"}",
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Written Exam",
+            "Document Verification",
+            "Medical"
+        ],
+        "important_links": {
+            "official_website": "https://uppbpb.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Cut Off Marks",
+                "content": [
+                    "General: 268 marks",
+                    "OBC: 261 marks",
+                    "SC: 245 marks",
+                    "ST: 240 marks"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "railway-ntpc-admit-card-2026",
+        "created_at": "1/3/2026",
+        "category": "admit-card",
+        "title": "Railway NTPC CBT 2 Admit Card 2026",
+        "organization": "Railway Recruitment Board",
+        "total_vacancy": 11558,
+        "job_location": "India",
+        "tags": [
+            "railway",
+            "ntpc"
+        ],
+        "important_dates": {
+            "exam_date": "20/4/2026",
+            "admit_card_date": "12/4/2026"
+        },
+        "qualification1": [
+            "12th pass",
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": "{\"download_admit_card\": \"https://rrbapply.gov.in/admit/ntpc-cbt2\"}",
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "CBT 1",
+            "CBT 2",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://indianrailways.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Exam Day Instructions",
+                "content": [
+                    "Report 30 minutes before exam time",
+                    "Mobile phones strictly prohibited",
+                    "Carry admit card and valid photo ID"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "ssc-cgl-answer-key-2026",
+        "created_at": "28/2/2026",
+        "category": "answer-key",
+        "title": "SSC CGL Tier 1 Answer Key 2026",
+        "organization": "Staff Selection Commission",
+        "total_vacancy": 17727,
+        "job_location": "India",
+        "tags": [
+            "ssc",
+            "cgl"
+        ],
+        "important_dates": {
+            "exam_date": "15/1/2026",
+            "answer_key_date": "20/1/2026"
+        },
+        "qualification1": [
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": null,
+        "answer_key": "{\"download_answer_key\": \"https://ssc.nic.in/answerkey/cgl-2026\"}",
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Tier 1",
+            "Tier 2",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://ssc.nic.in"
+        },
+        "table1": [
+            {
+                "title": "How to Raise Objection",
+                "content": [
+                    "Login to SSC official website",
+                    "Click on Answer Key Objection link",
+                    "Pay objection fee Rs 100 per question"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "upsc-civil-services-2026",
+        "created_at": "25/2/2026",
+        "category": "Jobs",
+        "title": "UPSC Civil Services Recruitment 2026",
+        "organization": "Union Public Service Commission",
+        "total_vacancy": 1056,
+        "job_location": "India",
+        "tags": [
+            "upsc",
+            "ias"
+        ],
+        "important_dates": {
+            "exam_date": "25/5/2026",
+            "last_date": "17/3/2026",
+            "apply_start": "25/2/2026",
+            "result_date": "1/7/2026",
+            "admit_card_date": "15/5/2026",
+            "notification_release": "15/2/2026"
+        },
+        "qualification1": [
+            "Graduate"
+        ],
+        "jobs": {
+            "apply_online": "https://upsconline.nic.in"
+        },
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": {
+            "sc": 0,
+            "st": 0,
+            "obc": 100,
+            "general": 100,
+            "oneline": [
+                "Payment Mode: Online only"
+            ],
+            "morecast": [
+                {
+                    "label": "PwD",
+                    "amount": 0
+                }
+            ]
+        },
+        "age_limit": {
+            "rows": [
+                {
+                    "age": "21-32 Years",
+                    "title": "General"
+                },
+                {
+                    "age": "21-35 Years",
+                    "title": "OBC"
+                },
+                {
+                    "age": "21-37 Years",
+                    "title": "SC / ST"
+                },
+                {
+                    "age": "21-42 Years",
+                    "title": "PwD"
+                }
+            ],
+            "oneline": [
+                "OBC 3 years relaxation Prelims: 2 papers, 400 marks, objective",
+                "SC/ST 5 years relaxation",
+                "PwD 10 years relaxation Prelims: 2 papers, 400 marks, objective"
+            ]
+        },
+        "selection_process": [
+            "Prelims",
+            "Mains",
+            "Interview / Personality Test"
+        ],
+        "important_links": {
+            "official_website": "https://upsc.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Exam Pattern",
+                "content": [
+                    "Prelims: 2 papers, 400 marks, objective",
+                    "Mains: 9 papers, 1750 marks, descriptive",
+                    "Interview: 275 marks"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "IAS",
+                        180
+                    ],
+                    [
+                        "IPS",
+                        200
+                    ],
+                    [
+                        "IFS",
+                        150
+                    ],
+                    [
+                        "Central Services Group A",
+                        350
+                    ],
+                    [
+                        "Central Services Group B",
+                        176
+                    ]
+                ],
+                "title": "Service Wise Vacancy",
+                "columns": [
+                    "Service",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "IAS",
+                        180
+                    ],
+                    [
+                        "IPS",
+                        200
+                    ],
+                    [
+                        "IFS",
+                        150
+                    ],
+                    [
+                        "Central Services Group A",
+                        350
+                    ],
+                    [
+                        "Central Services Group B",
+                        176
+                    ]
+                ],
+                "title": "Service Wise Vacancy",
+                "columns": [
+                    "Service",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ssc-chsl-recruitment-2026",
+        "created_at": "22/2/2026",
+        "category": "syllabus",
+        "title": "SSC CHSL Recruitment 2026",
+        "organization": "Staff Selection Commission",
+        "total_vacancy": 3712,
+        "job_location": "India",
+        "tags": [
+            "ssc",
+            "chsl"
+        ],
+        "important_dates": {
+            "exam_date": "1/7/2026",
+            "last_date": "15/3/2026",
+            "apply_start": "22/2/2026",
+            "admit_card_date": "20/6/2026",
+            "notification_release": "18/2/2026"
+        },
+        "qualification1": [
+            "12th pass"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": "{\"download_syllabus\": \"https://ssc.nic.in/apply/chsl\"}",
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Tier 1 CBT",
+            "Tier 2 CBT",
+            "Skill Test / Typing Test"
+        ],
+        "important_links": {
+            "official_website": "https://ssc.nic.in"
+        },
+        "table1": [
+            {
+                "title": "Post Details",
+                "content": [
+                    "LDC/JSA: Lower Division Clerk",
+                    "PA/SA: Postal/Sorting Assistant",
+                    "DEO: Data Entry Operator Grade A"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "LDC/JSA",
+                        1827
+                    ],
+                    [
+                        "PA/SA",
+                        1440
+                    ],
+                    [
+                        "DEO",
+                        445
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "LDC/JSA",
+                        1827
+                    ],
+                    [
+                        "PA/SA",
+                        1440
+                    ],
+                    [
+                        "DEO",
+                        445
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rrb-ntpc-answer-key-2026",
+        "created_at": "20/2/2026",
+        "category": "answer-key",
+        "title": "RRB NTPC CBT 1 Answer Key 2026",
+        "organization": "Railway Recruitment Board",
+        "total_vacancy": 11558,
+        "job_location": "India",
+        "tags": [
+            "railway",
+            "ntpc"
+        ],
+        "important_dates": {
+            "exam_date": "10/12/2025",
+            "answer_key_date": "20/2/2026"
+        },
+        "qualification1": [
+            "12th pass",
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": null,
+        "answer_key": "{\"download_answer_key\": \"https://rrbcdg.gov.in/answerkey/ntpc-2026\"}",
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "CBT 1",
+            "CBT 2",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://indianrailways.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Objection Window",
+                "content": [
+                    "Objection window open till 25/2/2026",
+                    "Rs 50 per question objection fee",
+                    "Refund if objection accepted"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "ibps-clerk-admit-card-2026",
+        "created_at": "18/2/2026",
+        "category": "admit-card",
+        "title": "IBPS Clerk Prelims Admit Card 2026",
+        "organization": "Institute of Banking Personnel Selection",
+        "total_vacancy": 6128,
+        "job_location": "India",
+        "tags": [
+            "bank",
+            "ibps"
+        ],
+        "important_dates": {
+            "exam_date": "5/4/2026",
+            "admit_card_date": "28/3/2026"
+        },
+        "qualification1": [
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": null,
+        "admit_card": "{\"download_admit_card\": \"https://ibps.in/admit/clerk-pre-2026\"}",
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Prelims",
+            "Mains",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://ibps.in"
+        },
+        "table1": [
+            {
+                "title": "Exam Day Checklist",
+                "content": [
+                    "Download admit card from ibps.in",
+                    "Carry valid photo ID proof",
+                    "Black/Blue ballpoint pen required",
+                    "No electronic devices allowed"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "mp-police-constable-2026",
+        "created_at": "15/2/2026",
+        "category": "Jobs",
+        "title": "MP Police Constable Recruitment 2026",
+        "organization": "Madhya Pradesh Police",
+        "total_vacancy": 7090,
+        "job_location": "Madhya Pradesh",
+        "tags": [
+            "police",
+            "mp"
+        ],
+        "important_dates": {
+            "exam_date": "20/7/2026",
+            "last_date": "10/3/2026",
+            "apply_start": "15/2/2026",
+            "admit_card_date": "12/7/2026",
+            "notification_release": "10/2/2026"
+        },
+        "qualification1": [
+            "12th pass"
+        ],
+        "jobs": {
+            "apply_online": "https://peb.mp.gov.in/apply"
+        },
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": {
+            "sc": 250,
+            "st": 250,
+            "obc": 250,
+            "general": 500,
+            "oneline": [
+                "Payment Mode: Online only",
+                "Female candidates fee exempt"
+            ],
+            "morecast": []
+        },
+        "age_limit": {
+            "rows": [
+                {
+                    "age": "18-25 Years",
+                    "title": "General"
+                },
+                {
+                    "age": "18-28 Years",
+                    "title": "SC / ST / OBC"
+                }
+            ],
+            "oneline": [
+                "MP domicile candidates relaxation applicable"
+            ]
+        },
+        "selection_process": [
+            "Written Exam",
+            "Physical Test",
+            "Medical",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://peb.mp.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Physical Fitness Test",
+                "content": [
+                    "800m Run (Male): 2 min 45 sec",
+                    "800m Run (Female): 3 min 30 sec",
+                    "Long Jump: 13 feet (Male), 10 feet (Female)"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "Bhopal",
+                        1200
+                    ],
+                    [
+                        "Indore",
+                        1100
+                    ],
+                    [
+                        "Jabalpur",
+                        1000
+                    ],
+                    [
+                        "Gwalior",
+                        900
+                    ],
+                    [
+                        "Other Divisions",
+                        2890
+                    ]
+                ],
+                "title": "Division Wise Vacancy",
+                "columns": [
+                    "Division",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "Bhopal",
+                        1200
+                    ],
+                    [
+                        "Indore",
+                        1100
+                    ],
+                    [
+                        "Jabalpur",
+                        1000
+                    ],
+                    [
+                        "Gwalior",
+                        900
+                    ],
+                    [
+                        "Other Divisions",
+                        2890
+                    ]
+                ],
+                "title": "Division Wise Vacancy",
+                "columns": [
+                    "Division",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ibps-po-result-2026",
+        "created_at": "12/2/2026",
+        "category": "result",
+        "title": "IBPS PO Mains Result 2026",
+        "organization": "Institute of Banking Personnel Selection",
+        "total_vacancy": 4455,
+        "job_location": "India",
+        "tags": [
+            "bank",
+            "ibps"
+        ],
+        "important_dates": {
+            "exam_date": "15/1/2026",
+            "result_date": "12/2/2026"
+        },
+        "qualification1": [
+            "Graduate"
+        ],
+        "jobs": null,
+        "result": "{\"download_result\": \"https://ibps.in/result/po-mains-2026\"}",
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": null,
+        "age_limit": null,
+        "selection_process": [
+            "Prelims",
+            "Mains",
+            "Interview"
+        ],
+        "important_links": {
+            "official_website": "https://ibps.in"
+        },
+        "table1": [
+            {
+                "title": "Interview Schedule",
+                "content": [
+                    "Interviews to be held in March 2026",
+                    "Venue details on official website",
+                    "Carry all original documents for interview"
+                ]
+            }
+        ],
+        "tablev": [],
+        "post_name": null
+    },
+    {
+        "id": "haryana-police-constable-2026",
+        "created_at": "10/2/2026",
+        "category": "Jobs",
+        "title": "Haryana Police Constable Recruitment 2026",
+        "organization": "Haryana Staff Selection Commission",
+        "total_vacancy": 5500,
+        "job_location": "Haryana",
+        "tags": [
+            "police",
+            "haryana"
+        ],
+        "important_dates": {
+            "exam_date": "15/8/2026",
+            "last_date": "5/3/2026",
+            "apply_start": "10/2/2026",
+            "admit_card_date": "8/8/2026",
+            "notification_release": "5/2/2026"
+        },
+        "qualification1": [
+            "12th pass"
+        ],
+        "jobs": {
+            "apply_online": "https://hssc.gov.in/apply"
+        },
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": {
+            "sc": 0,
+            "st": 0,
+            "obc": 250,
+            "general": 500,
+            "oneline": [
+                "Payment Mode: Online only",
+                "SC/ST/Female fee exempt"
+            ],
+            "morecast": []
+        },
+        "age_limit": {
+            "rows": [
+                {
+                    "age": "18-25 Years",
+                    "title": "General"
+                },
+                {
+                    "age": "18-30 Years",
+                    "title": "SC / ST"
+                }
+            ],
+            "oneline": [
+                "Haryana domicile candidates only"
+            ]
+        },
+        "selection_process": [
+            "Written Exam",
+            "Physical Measurement",
+            "Physical Screening",
+            "Medical"
+        ],
+        "important_links": {
+            "official_website": "https://hssc.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Important Instructions",
+                "content": [
+                    "Only Haryana domicile candidates eligible",
+                    "Must have passed 12th from recognized board",
+                    "Hindi and English both medium available"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "Constable Male",
+                        4000
+                    ],
+                    [
+                        "Constable Female",
+                        1500
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "Constable Male",
+                        4000
+                    ],
+                    [
+                        "Constable Female",
+                        1500
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ssc-mts-recruitment-2026",
+        "created_at": "8/2/2026",
+        "category": "Jobs",
+        "title": "SSC MTS Recruitment 2026",
+        "organization": "Staff Selection Commission",
+        "total_vacancy": 8326,
+        "job_location": "India",
+        "tags": [
+            "ssc",
+            "mts"
+        ],
+        "important_dates": {
+            "exam_date": "10/6/2026",
+            "last_date": "1/3/2026",
+            "apply_start": "8/2/2026",
+            "admit_card_date": "1/6/2026",
+            "notification_release": "4/2/2026"
+        },
+        "qualification1": [
+            "10th pass"
+        ],
+        "jobs": {
+            "apply_online": "https://ssc.nic.in/apply/mts"
+        },
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": {
+            "sc": 0,
+            "st": 0,
+            "obc": 100,
+            "general": 100,
+            "oneline": [
+                "Payment Mode: Online only"
+            ],
+            "morecast": []
+        },
+        "age_limit": {
+            "rows": [
+                {
+                    "age": "18-25 Years",
+                    "title": "General"
+                },
+                {
+                    "age": "18-30 Years",
+                    "title": "SC / ST"
+                },
+                {
+                    "age": "18-28 Years",
+                    "title": "OBC"
+                }
+            ],
+            "oneline": [
+                "Age relaxation as per govt rules"
+            ]
+        },
+        "selection_process": [
+            "CBT Exam",
+            "Physical Efficiency Test (Havaldar only)",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://ssc.nic.in"
+        },
+        "table1": [
+            {
+                "title": "Post Details",
+                "content": [
+                    "MTS: Office assistant work",
+                    "Havaldar: CBIC and CBN departments",
+                    "Both posts are Group C non-gazetted"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "MTS",
+                        6446
+                    ],
+                    [
+                        "Havaldar (CBIC)",
+                        1198
+                    ],
+                    [
+                        "Havaldar (CBN)",
+                        682
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "MTS",
+                        6446
+                    ],
+                    [
+                        "Havaldar (CBIC)",
+                        1198
+                    ],
+                    [
+                        "Havaldar (CBN)",
+                        682
+                    ]
+                ],
+                "title": "Post Wise Vacancy",
+                "columns": [
+                    "Post",
+                    "Vacancy"
+                ]
+            }
+        ]
+    },
+    {
+        "id": "rajasthan-police-constable-2026",
+        "created_at": "5/2/2026",
+        "category": "Jobs",
+        "title": "Rajasthan Police Constable Recruitment 2026",
+        "organization": "Rajasthan Police",
+        "total_vacancy": 3578,
+        "job_location": "Rajasthan",
+        "tags": [
+            "police",
+            "rajasthan"
+        ],
+        "important_dates": {
+            "exam_date": "10/9/2026",
+            "last_date": "28/2/2026",
+            "apply_start": "5/2/2026",
+            "admit_card_date": "2/9/2026",
+            "notification_release": "1/2/2026"
+        },
+        "qualification1": [
+            "12th pass"
+        ],
+        "jobs": {
+            "apply_online": "https://police.rajasthan.gov.in/apply"
+        },
+        "result": null,
+        "admit_card": null,
+        "answer_key": null,
+        "syllabus": null,
+        "application_fee": {
+            "sc": 350,
+            "st": 350,
+            "obc": 350,
+            "general": 500,
+            "oneline": [
+                "Payment Mode: Online only"
+            ],
+            "morecast": []
+        },
+        "age_limit": {
+            "rows": [
+                {
+                    "age": "18-23 Years",
+                    "title": "General"
+                },
+                {
+                    "age": "18-28 Years",
+                    "title": "SC / ST / OBC"
+                }
+            ],
+            "oneline": [
+                "Rajasthan domicile norms applicable"
+            ]
+        },
+        "selection_process": [
+            "Written Exam",
+            "Physical Test",
+            "Medical",
+            "Document Verification"
+        ],
+        "important_links": {
+            "official_website": "https://police.rajasthan.gov.in"
+        },
+        "table1": [
+            {
+                "title": "Syllabus Overview",
+                "content": [
+                    "General Knowledge of Rajasthan",
+                    "Reasoning and Mental Ability",
+                    "General Hindi",
+                    "Basic Computer Knowledge"
+                ]
+            }
+        ],
+        "tablev": [
+            {
+                "rows": [
+                    [
+                        "Jaipur",
+                        600
+                    ],
+                    [
+                        "Jodhpur",
+                        550
+                    ],
+                    [
+                        "Udaipur",
+                        500
+                    ],
+                    [
+                        "Ajmer",
+                        450
+                    ],
+                    [
+                        "Others",
+                        1478
+                    ]
+                ],
+                "title": "Division Wise Vacancy",
+                "columns": [
+                    "Division",
+                    "Vacancy"
+                ]
+            }
+        ],
+        "post_name": [
+            {
+                "rows": [
+                    [
+                        "Jaipur",
+                        600
+                    ],
+                    [
+                        "Jodhpur",
+                        550
+                    ],
+                    [
+                        "Udaipur",
+                        500
+                    ],
+                    [
+                        "Ajmer",
+                        450
+                    ],
+                    [
+                        "Others",
+                        1478
+                    ]
+                ],
+                "title": "Division Wise Vacancy",
+                "columns": [
+                    "Division",
+                    "Vacancy"
+                ]
+            }
+        ]
+    }
+  
+]

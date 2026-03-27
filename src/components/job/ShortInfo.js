@@ -1,9 +1,18 @@
+// src/components/job/ShortInfo.js
 import { formatDate } from '@/lib/formatDate';
 import styles from './ShortInfo.module.css';
 
 export default function ShortInfo({ item }) {
   if (!item) return null;
 
+  // Agar custom short_note hai toh wahi dikhao
+  if (item.short_note && typeof item.short_note === 'string' && item.short_note.trim() !== '') {
+    return (
+      <p className={styles.text} dangerouslySetInnerHTML={{ __html: item.short_note }} />
+    );
+  }
+
+  // Auto generate
   const parts = [];
 
   if (item.organization && item.title) {
@@ -16,26 +25,8 @@ export default function ShortInfo({ item }) {
     parts.push(`A total of <strong>${Number(item.total_vacancy).toLocaleString()} vacancies</strong> are available.`);
   }
 
-  if (Array.isArray(item.post_name) && item.post_name.length > 0) {
-    const postNames = [];
-    item.post_name.forEach((table) => {
-      if (Array.isArray(table.rows)) table.rows.forEach((row) => { if (row[0]) postNames.push(row[0]); });
-    });
-    if (postNames.length > 0) parts.push(`The available posts are: <strong>${postNames.join(', ')}</strong>.`);
-  }
-
   if (Array.isArray(item.qualification1) && item.qualification1.length > 0) {
     parts.push(`Candidates with <strong>${item.qualification1.join(', ')}</strong> qualification are eligible to apply.`);
-  }
-
-  // Age Limit — naya {rows, oneline} format
-  if (item.age_limit?.rows && Array.isArray(item.age_limit.rows) && item.age_limit.rows.length > 0) {
-    const ageStr = item.age_limit.rows.map(a => `${a.title}: ${a.age}`).join(', ');
-    parts.push(`Age limit — <strong>${ageStr}</strong>.`);
-  } else if (Array.isArray(item.age_limit) && item.age_limit.length > 0) {
-    // Old array format
-    const ageStr = item.age_limit.map(a => `${a.title}: ${a.age}`).join(', ');
-    parts.push(`Age limit — <strong>${ageStr}</strong>.`);
   }
 
   if (item.job_location) {

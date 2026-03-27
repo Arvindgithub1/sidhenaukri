@@ -12,6 +12,7 @@ import ImportantLinks    from '@/components/job/ImportantLinks';
 import QualificationList from '@/components/job/QualificationList';
 import SchemaMarkup      from '@/components/job/SchemaMarkup';
 import AdSlot            from '@/components/job/AdSlot';
+import VideoEmbed        from '@/components/job/VideoEmbed';
 import styles            from './DetailPageLayout.module.css';
 
 function hasData(obj) {
@@ -20,13 +21,6 @@ function hasData(obj) {
   if (typeof obj === 'object')
     return Object.values(obj).some((v) => v !== null && v !== undefined && v !== '');
   return Boolean(obj);
-}
-
-function hasAge(age) {
-  if (!age) return false;
-  if (age.rows) return Array.isArray(age.rows) && age.rows.length > 0;
-  if (Array.isArray(age)) return age.length > 0;
-  return hasData(age);
 }
 
 const SECTION_LABELS = {
@@ -51,9 +45,7 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
 
   return (
     <div className={styles.page}>
-      {/* Schema Markup — SEO */}
       <SchemaMarkup item={item} section={section} />
-
       <Navbar />
       <main className={styles.main}>
 
@@ -71,21 +63,12 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
 
         <AdSlot />
 
-        {/* Important Dates */}
+        {/* Important Dates — fully dynamic */}
         {hasData(item.important_dates) && (
           <SectionBlock title="Important Dates">
             <KeyValueTable data={item.important_dates} />
           </SectionBlock>
         )}
-
-        {/* Post Name */}
-        {Array.isArray(item.post_name) && item.post_name.map((grid, i) => (
-          grid?.title || grid?.rows?.length ? (
-            <SectionBlock key={i} title={grid.title || 'Post Name'}>
-              <VacancyGrid data={[grid]} />
-            </SectionBlock>
-          ) : null
-        ))}
 
         {/* Qualification */}
         {Array.isArray(item.qualification1) && item.qualification1.length > 0 && (
@@ -94,28 +77,32 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
           </SectionBlock>
         )}
 
-        {/* Application Fee */}
-        {hasData(item.application_fee) && (
-          <SectionBlock title="Application Fee">
-            <KeyValueTable data={item.application_fee} type="fee" />
-          </SectionBlock>
-        )}
-
-        {/* Age Limit */}
-        {hasAge(item.age_limit) && (
-          <SectionBlock title="Age Limit">
-            <KeyValueTable data={item.age_limit} type="age" />
-          </SectionBlock>
-        )}
-
-        {/* tablev */}
-        {Array.isArray(item.tablev) && item.tablev.map((grid, i) => (
-          grid?.title || grid?.rows?.length ? (
-            <SectionBlock key={i} title={grid.title || 'Vacancy Details'}>
+        {/* Type1 — post_name style table */}
+        {Array.isArray(item.type1) && item.type1.map((grid, i) =>
+          (grid?.rows?.length || grid?.oneline?.length) ? (
+            <SectionBlock key={i} title={grid.title || 'Details'}>
               <VacancyGrid data={[grid]} />
             </SectionBlock>
           ) : null
-        ))}
+        )}
+
+        {/* Type2 — tablev style table */}
+        {Array.isArray(item.type2) && item.type2.map((grid, i) =>
+          (grid?.rows?.length || grid?.oneline?.length) ? (
+            <SectionBlock key={i} title={grid.title || 'Details'}>
+              <VacancyGrid data={[grid]} />
+            </SectionBlock>
+          ) : null
+        )}
+
+        {/* Type3 — content block */}
+        {Array.isArray(item.type3) && item.type3.map((block, i) =>
+          block?.title ? (
+            <SectionBlock key={i} title={block.title}>
+              <ContentBlock data={[block]} />
+            </SectionBlock>
+          ) : null
+        )}
 
         {/* Selection Process */}
         {hasData(item.selection_process) && (
@@ -124,14 +111,12 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
           </SectionBlock>
         )}
 
-        {/* table1 */}
-        {Array.isArray(item.table1) && item.table1.map((block, i) => (
-          block?.title ? (
-            <SectionBlock key={i} title={block.title}>
-              <ContentBlock data={[block]} />
-            </SectionBlock>
-          ) : null
-        ))}
+        {/* Video */}
+        {item.video?.url && (
+          <SectionBlock title={item.video.title || 'Video'}>
+            <VideoEmbed url={item.video.url} />
+          </SectionBlock>
+        )}
 
         {/* Important Links */}
         <SectionBlock title="Important Links">
