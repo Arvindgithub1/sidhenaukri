@@ -7,7 +7,6 @@ import SectionBlock      from '@/components/job/SectionBlock';
 import KeyValueTable     from '@/components/job/KeyValueTable';
 import VacancyGrid       from '@/components/job/VacancyGrid';
 import ContentBlock      from '@/components/job/ContentBlock';
-import SelectionProcess  from '@/components/job/SelectionProcess';
 import ImportantLinks    from '@/components/job/ImportantLinks';
 import QualificationList from '@/components/job/QualificationList';
 import SchemaMarkup      from '@/components/job/SchemaMarkup';
@@ -63,7 +62,7 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
 
         <AdSlot />
 
-        {/* Important Dates — fully dynamic */}
+        {/* Important Dates */}
         {hasData(item.important_dates) && (
           <SectionBlock title="Important Dates">
             <KeyValueTable data={item.important_dates} />
@@ -77,7 +76,7 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
           </SectionBlock>
         )}
 
-        {/* Type1 — post_name style table */}
+        {/* Type1 */}
         {Array.isArray(item.type1) && item.type1.map((grid, i) =>
           (grid?.rows?.length || grid?.oneline?.length) ? (
             <SectionBlock key={i} title={grid.title || 'Details'}>
@@ -86,7 +85,7 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
           ) : null
         )}
 
-        {/* Type2 — tablev style table */}
+        {/* Type2 */}
         {Array.isArray(item.type2) && item.type2.map((grid, i) =>
           (grid?.rows?.length || grid?.oneline?.length) ? (
             <SectionBlock key={i} title={grid.title || 'Details'}>
@@ -95,20 +94,13 @@ export default function DetailPageLayout({ item, section = 'jobs' }) {
           ) : null
         )}
 
-        {/* Type3 — content block */}
+        {/* Type3 */}
         {Array.isArray(item.type3) && item.type3.map((block, i) =>
           block?.title ? (
             <SectionBlock key={i} title={block.title}>
               <ContentBlock data={[block]} />
             </SectionBlock>
           ) : null
-        )}
-
-        {/* Selection Process */}
-        {hasData(item.selection_process) && (
-          <SectionBlock title="Selection Process">
-            <SelectionProcess steps={item.selection_process} />
-          </SectionBlock>
         )}
 
         {/* Video */}

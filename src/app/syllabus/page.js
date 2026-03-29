@@ -5,6 +5,7 @@ import JobListingGrid from '@/components/JobListingGrid';
 import { getJobs } from '@/lib/blogger';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
+export const revalidate = 86400;
 
 export const metadata = {
   title: 'Exam Syllabus 2026 - Latest Pattern & PDF Download | Sidhe Naukri',

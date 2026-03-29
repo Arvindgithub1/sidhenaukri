@@ -1,12 +1,14 @@
 .wrap { padding: 12px 14px 0; }
+
 .list {
   list-style: none;
   padding: 0;
-  margin: 0 0 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .item {
   display: flex;
   align-items: flex-start;
@@ -15,7 +17,9 @@
   color: #444;
   line-height: 1.6;
   font-family: var(--font-poppins), sans-serif;
+  word-break: break-word; /* ✅ long text wrap hoga */
 }
+
 .dot {
   color: #1a3fa3;
   font-size: 1.4rem;
@@ -29,7 +33,7 @@
 .oneline {
   display: flex;
   flex-wrap: wrap;
-  gap: 0;
+  gap: 6px;
   border-top: 1px solid #eef0f6;
   margin-top: 10px;
   padding: 10px 0 0;
@@ -37,18 +41,19 @@
 }
 
 .onelineItem {
-  flex: 1;
   font-size: 0.85rem;
   font-weight: 500;
   color: #444;
   font-family: var(--font-poppins), sans-serif;
-  padding: 2px 8px 2px 0;
-  white-space: nowrap;
-  min-width: max-content;
+  padding: 2px 0;
+  white-space: normal; /* ✅ wrap hoga */
+  word-break: break-word;
+  flex: unset;
+  min-width: unset;
 }
 
 .onelineItem:not(:last-child)::after {
-  content: '|';
-  margin-left: 8px;
+  content: ' |';
+  margin-left: 4px;
   color: #ccc;
 }

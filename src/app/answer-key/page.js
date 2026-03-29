@@ -5,7 +5,7 @@ import JobListingGrid from '@/components/JobListingGrid';
 import { getJobs } from '@/lib/blogger';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
-
+export const revalidate = 86400;
 export const metadata = {
   title: 'Answer Key 2026 - Latest Govt Exam Answer Key & PDF | Sidhe Naukri',
   description: 'सभी सरकारी परीक्षाओं की Official Answer Key यहाँ से डाउनलोड करें। Get latest updates on Exam Solutions, Question Papers and Objection Links on Sidhe Naukri.',

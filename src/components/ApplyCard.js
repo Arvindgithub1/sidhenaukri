@@ -2,7 +2,6 @@ import Link from 'next/link';
 import { formatDate } from '@/lib/formatDate';
 import styles from './ApplyCard.module.css';
 
-// section ke hisab se URL prefix
 function getPrefix(section) {
   if (section === 'result')     return '/result';
   if (section === 'admit-card') return '/admit-card';
@@ -11,13 +10,31 @@ function getPrefix(section) {
   return '/jobs';
 }
 
+function getDates(job) {
+  let dates = job.important_dates;
+  if (typeof dates === 'string') {
+    try { dates = JSON.parse(dates); } catch { dates = {}; }
+  }
+  return dates || {};
+}
+
+// ✅ case-insensitive key dhundo — sirf last_date ya last_date_to_apply
+function getLastDate(dates) {
+  const keys = Object.keys(dates);
+  const match = keys.find(k => {
+    const lower = k.toLowerCase().replace(/\s+/g, '_');
+    return lower === 'last_date' || lower === 'last_date_to_apply';
+  });
+  return match ? dates[match] : null;
+}
+
 export default function ApplyCard({ job, section }) {
   const title    = job.title;
-  const postDate = formatDate(job.created_at || job.important_dates?.apply_start);
-  const lastDate = formatDate(job.important_dates?.last_date);
+  const dates    = getDates(job);
+  const postDate = formatDate(job.created_at || dates.apply_start);
+  const lastDate = formatDate(getLastDate(dates));
   const prefix   = getPrefix(section);
 
-  // Section ke hisab se release date dikho
   const releaseDate =
     section === 'result'     ? formatDate(job.result?.release_date) :
     section === 'admit-card' ? formatDate(job.admit_card?.release_date) :

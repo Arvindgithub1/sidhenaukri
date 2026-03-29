@@ -5,6 +5,7 @@ import JobListingGrid from '@/components/JobListingGrid';
 import { getJobs } from '@/lib/blogger';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
+export const revalidate = 86400;
 
 export const metadata = {
   title: 'Sarkari Result 2026 - Latest Exam Results & Merit List | Sidhe Naukri',

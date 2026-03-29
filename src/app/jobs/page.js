@@ -5,12 +5,12 @@ import JobListingGrid from '@/components/JobListingGrid';
 import { getJobs } from '@/lib/blogger';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
+export const revalidate = 86400;
 
 export const metadata = {
-  title: 'Latest Govt Jobs 2026 - नई सरकारी भर्तियां और Online Form | Sidhe Naukri',
-  description: 'सभी नवीनतम सरकारी नौकरियों (Latest Vacancies) की लिस्ट यहाँ देखें। SSC, Railway, Bank और State Govt जॉब्स के ऑनलाइन फॉर्म भरने की पूरी जानकारी और डायरेक्ट लिंक सबसे पहले पाएं।',
+  title: 'Sarkari Result: Govt Jobs 2026 - नई सरकारी भर्तियां और Online Form | Sidhe Naukri',
+  description: 'Sarkari Result 2026: सभी नवीनतम सरकारी नौकरियों (Latest Vacancies) की लिस्ट यहाँ देखें। SSC, Railway, Bank और State Govt जॉब्स के ऑनलाइन फॉर्म भरने की पूरी जानकारी और डायरेक्ट लिंक सबसे पहले पाएं।',
 };
-
 export default async function JobsPage() {
   const all  = await getJobs();
   const jobs = all.filter(j => j.category?.toLowerCase() === 'jobs');

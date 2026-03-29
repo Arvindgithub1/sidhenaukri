@@ -5,12 +5,12 @@ import DetailPageLayout from '@/components/job/DetailPageLayout';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from '@/components/job/DetailPageLayout.module.css';
+export const revalidate = 86400;
 
 export async function generateStaticParams() {
   const jobs = await getJobs();
   return jobs.map((job) => ({ slug: String(job.id) }));
 }
-
 export async function generateMetadata({ params }) {
   const { slug } = await params;
   const item = await getJobById(slug);

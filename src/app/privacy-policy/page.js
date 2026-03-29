@@ -1,12 +1,12 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from '../about/page.module.css';
+export const revalidate = 864000;
 
 export const metadata = {
   title: 'Privacy Policy | Sidhe Naukri',
   description: 'Sidhe Naukri की Privacy Policy पढ़ें। हम आपकी निजी जानकारी की सुरक्षा को सर्वोच्च प्राथमिकता देते हैं।',
 };
-
 export default function PrivacyPolicyPage() {
   return (
     <div className={styles.page}>

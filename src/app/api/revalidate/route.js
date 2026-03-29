@@ -1,39 +1,44 @@
-// src/app/api/revalidate/route.js  (MAIN SITE — alag Next.js project)
-import { NextResponse } from 'next/server';
-import { revalidatePath } from 'next/cache';
 
-const REVALIDATE_SECRET = process.env.REVALIDATE_SECRET || 'sidhenaukri-secret-2026';
+
+// src/app/api/revalidate/route.js  (SITE)
+import { revalidatePath, revalidateTag } from 'next/cache';
+import { NextResponse } from 'next/server';
+
+const SECRET   = process.env.REVALIDATE_SECRET ;
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL;
+
+async function warmCache(paths) {
+  for (const path of paths) {
+    fetch(`${SITE_URL}${path}`, { cache: 'no-store' }).catch(() => {});
+  }
+}
 
 export async function POST(request) {
   try {
     const { secret, paths } = await request.json();
 
-    // Secret check
-    if (secret !== REVALIDATE_SECRET) {
+    if (secret !== SECRET) {
       return NextResponse.json({ error: 'Invalid secret' }, { status: 401 });
     }
 
-    if (!paths || !Array.isArray(paths) || paths.length === 0) {
-      return NextResponse.json({ error: 'Paths required' }, { status: 400 });
+
+    revalidateTag('blogger-jobs');
+
+    if (Array.isArray(paths) && paths.length > 0) {
+      paths.forEach(path => revalidatePath(path));
+      warmCache(paths);
+    } else {
+      revalidatePath('/');
+      revalidatePath('/jobs');
+      revalidatePath('/result');
+      revalidatePath('/admit-card');
+      revalidatePath('/answer-key');
+      revalidatePath('/syllabus');
+      revalidatePath('/search');
+      warmCache(['/', '/jobs', '/result', '/admit-card', '/answer-key', '/syllabus', '/search']);
     }
 
-    // Har path revalidate karo
-    const revalidated = [];
-    for (const path of paths) {
-      try {
-        revalidatePath(path);
-        revalidated.push(path);
-      } catch (e) {
-        console.error(`Failed to revalidate ${path}:`, e.message);
-      }
-    }
-
-    return NextResponse.json({
-      success: true,
-      revalidated,
-      message: `${revalidated.length} path(s) revalidated successfully`,
-    });
-
+    return NextResponse.json({ success: true, revalidated: paths, total: paths?.length || 0 });
   } catch (err) {
     return NextResponse.json({ error: err.message }, { status: 500 });
   }

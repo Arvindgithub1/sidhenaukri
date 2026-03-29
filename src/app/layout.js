@@ -1,5 +1,3 @@
-
-
 // src/app/layout.js
 import { Poppins } from 'next/font/google';
 import FloatingButtons from '@/components/FloatingButtons';
@@ -10,7 +8,6 @@ const poppins = Poppins({
   weight: ['400', '500', '600', '700', '800'],
   variable: '--font-poppins',
 });
-
 
 export const metadata = {
   title: "Sarkari Result 2026 - Sidhe Naukri: Latest Govt Jobs, Admit Card, Results, SSC, Railway, & All Govt Jobs Updates",
@@ -27,9 +24,14 @@ export const metadata = {
     type: 'website',
   },
   icons: {
-    icon: '/og-image.svg',
-    shortcut: '/og-image.svg',
-    apple: '/og-image.svg',
+    icon: [
+      { url: '/favicon.ico',        sizes: '32x32',   type: 'image/x-icon' },
+      { url: '/favicon-32x32.png',  sizes: '32x32',   type: 'image/png' },
+    ],
+    apple:   { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    other: [
+      { url: '/favicon-192x192.png', sizes: '192x192', type: 'image/png', rel: 'icon' },
+    ],
   },
   twitter: {
     card: 'summary_large_image',

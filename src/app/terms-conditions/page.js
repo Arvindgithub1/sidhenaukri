@@ -1,6 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from '../about/page.module.css';
+export const revalidate = 864000;
 
 export const metadata = {
   title: 'Terms & Conditions | Sidhe Naukri',

@@ -2,7 +2,7 @@
 import { Suspense } from 'react';
 import { getJobs } from '@/lib/blogger';
 import SearchClient from './SearchClient';
-
+export const revalidate = 86400;
 export default async function SearchPage() {
   const jobs = await getJobs();
   return (

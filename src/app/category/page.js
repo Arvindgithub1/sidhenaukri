@@ -4,7 +4,7 @@ import PageHero from '@/components/PageHero';
 import CategoryGrid from '@/components/CategoryGrid';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
-
+export const revalidate = 86400;
 export const metadata = {
   title: 'Browse Jobs by Category | Sidhe Naukri',
   description: 'SSC, Railway, Bank, Police, Teaching, Defence, Medical सभी categories की सरकारी नौकरियां एक जगह।',

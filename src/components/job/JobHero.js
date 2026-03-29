@@ -38,7 +38,7 @@ export default function JobHero({ job }) {
 
   const genericTags = ['govt jobs', 'sarkari naukri', 'result', 'admit-card', 'answer-key'];
   const displayTags = Array.isArray(job.tags)
-    ? job.tags.filter(t => !genericTags.includes(t.toLowerCase())).slice(0, 4)
+    ? job.tags.filter(t => !genericTags.includes(t.toLowerCase())).slice(0, 5)
     : [];
 
   return (

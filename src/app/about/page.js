@@ -1,7 +1,7 @@
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import styles from './page.module.css';
-
+export const revalidate = 864000;
 export const metadata = {
   title: "About Us - Sidhe Naukri: India's Trusted Govt Jobs Portal",
   description: "SidheNaukri.in के बारे में जानें। हम आपको SSC, Railway, Bank and All Government Jobs (Sarkari Result) की सबसे तेज़ और सटीक जानकारी प्रदान करते हैं।"

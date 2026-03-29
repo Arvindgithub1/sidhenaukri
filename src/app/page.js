@@ -9,7 +9,7 @@ import { getJobs } from '@/lib/blogger';
 import styles from './page.module.css';
 
 // Case-insensitive category match
-
+export const revalidate = 86400;
 const isCategory = (job, cat) =>
   job.category?.toLowerCase() === cat.toLowerCase();
 

@@ -6,7 +6,7 @@ import { getJobs } from '@/lib/blogger';
 import styles from '@/components/ListingPage.module.css';
 import Link from 'next/link';
 import { categories } from '@/data/homeData';
-
+export const revalidate = 86400;
 export async function generateStaticParams() {
   return categories.map((cat) => ({ slug: cat.slug }));
 }

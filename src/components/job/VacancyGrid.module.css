@@ -16,6 +16,7 @@
   border-collapse: collapse;
   font-family: var(--font-poppins), sans-serif;
   font-size: 0.87rem;
+  table-layout: fixed;
 }
 
 .th {
@@ -23,9 +24,10 @@
   color: #fff;
   padding: 10px 14px;
   font-weight: 600;
+  word-break: break-word;
 }
-.th:first-child { text-align: left; }
-.th:not(:first-child) { text-align: right; }
+.th:first-child { text-align: left; width: 60%; }
+.th:not(:first-child) { text-align: right; width: 40%; }
 
 .rowEven { background: #fff; }
 .rowOdd  { background: #f8f9fd; }
@@ -38,6 +40,9 @@
   padding: 9px 14px;
   color: #333;
   font-weight: 500;
+  word-break: break-word;
+  line-height: 1.5;
+  width: 60%;
 }
 
 .tdValue {
@@ -45,31 +50,35 @@
   color: #1a3fa3;
   font-weight: 700;
   text-align: right;
+  word-break: break-word;
+  line-height: 1.5;
+  width: 40%;
 }
 
-/* Oneline — full width */
+/* Oneline */
 .oneline {
   display: flex;
   flex-wrap: wrap;
-  gap: 0;
+  gap: 6px;
   border-top: 1px solid #eef0f6;
   padding: 10px 14px;
   background: #f8f9fd;
 }
 
 .onelineItem {
-  flex: 1;
   font-size: 0.85rem;
   font-weight: 500;
   color: #444;
   font-family: var(--font-poppins), sans-serif;
-  padding: 2px 8px 2px 0;
-  white-space: nowrap;
-  min-width: max-content;
+  padding: 2px 0;
+  white-space: normal;
+  word-break: break-word;
+  flex: unset;
+  min-width: unset;
 }
 
 .onelineItem:not(:last-child)::after {
-  content: '|';
-  margin-left: 8px;
+  content: ' |';
+  margin-left: 4px;
   color: #ccc;
 }

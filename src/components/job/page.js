@@ -13,7 +13,7 @@ import AgeLimit         from '@/components/job/AgeLimit';
 import SelectionProcess from '@/components/job/SelectionProcess';
 import ImportantLinks   from '@/components/job/ImportantLinks';
 import AdSlot           from '@/components/job/AdSlot';
-
+export const revalidate = 86400;
 
 // Helper — check if object has at least one non-null value
 function hasData(obj) {
