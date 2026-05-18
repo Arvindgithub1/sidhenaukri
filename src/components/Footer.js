@@ -29,7 +29,7 @@ export default function Footer() {
         </h3>
         <p className={styles.seoPara}>
           {/* <a href="https://www.sidhenaukri.com" className={styles.seoLinkWhite}>SidheNaukri.com</a> और{' '} */}
-          <a href="https://www.sidhenaukri.in" className={styles.seoLinkWhite}>SidheNaukri.in</a>{' '}
+          <a href="https://sidhenaukri.in" className={styles.seoLinkWhite}>SidheNaukri.in</a>{' '}
           भारत का उभरता हुआ जॉब न्यूज़ पोर्टल हैं, जहाँ छात्रों को{' '}
           <Link href="/result" className={styles.seoLinkBlue}>Sarkari Result</Link>,{' '}
           <Link href="/jobs" className={styles.seoLinkBlue}>Latest Jobs</Link>, और{' '}
