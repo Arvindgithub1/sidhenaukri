@@ -1,5 +1,5 @@
 // src/lib/metadata.js
-const BASE_URL = 'https://sidhenaukri.in';
+const BASE_URL = 'https://www.sidhenaukri.in';
 
 const SEO_TITLES = {
   Jobs: (title, year) =>
